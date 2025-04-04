@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  monospace;
+}
+/*=======Navbar===*/
+.bg{
+    background: #077cb3;
+}
+.main-navbar-light{
+    background:transparent!important;
+    position:absolute;
+    left:0;
+    right:0;
+    z-index:3;
+    top:10px;
+}
+/*====End of Navabr==*/
+/*====main Section===*/
+.main{
+    width:100%;
+    height: 550px;
+    position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index:0;
+}
+.main .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:30%;
+    content:"";
+    opacity: 0.05;
+    background:whitesmoke;
+    height: 850px;
+}
+.main .main-text{
+    height:800px!important;
+
+}
+.main-text h1{
+    font-size:60px;
+    color:white;
+    line-height:1.1;
+    font-weight: bold;
+    padding:inherit;
+    
+}
+.main-text p{
+    line-height: 1.5;
+   color:white;
+   margin-top: 0pc;
+}
+.btn-hero{
+    background-color:teal!important;
+    color:#fff!important;
+    margin-right:5px;
+    margin-left:5px;
+    animation:skew 3s infinite;
+    animation-direction: normal;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    padding:5px 17px;
+}
+
+.blog-section{
+    padding-bottom:50px;
+    border-style: ridge;
+}
+.single-blog{
+    margin-bottom: 42px;
+}
+.single-blog img{
+    min-width: 100%;
+    margin-bottom: 30px;
+}
+.single-blog .blog-detail{
+    margin-bottom: 10px;
+}
+.single-blog .blog-detail .blog-detail{
+    font-size:16px;
+    color:#030942;
+    display: inline-block;
+    margin-right: 8px;
+}
+.single-blog .blog-detail .tag{
+    font-size:16px;
+    color:#030942;
+}
+.single-blog h4 a{
+    color: #030942;
+    font-weight: bold;
+    line-height: 30px;
+}
